@@ -1,0 +1,15 @@
+.common-heading h2 {
+    font-size: 40px;
+    color: #105caa;
+    text-transform: uppercase;
+    margin: 0;
+    font-family: "poppinsregular";
+  }
+  
+  .common-heading h2 span {
+    color: #4eb848;
+    font-family: "poppinssemibold";
+  }
+.icon {
+    width: 150px;
+  }

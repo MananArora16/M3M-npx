@@ -1,0 +1,51 @@
+.space50 {
+  height: 50px;
+  clear: both;
+}
+
+/* Map CSS Start */
+
+.common-bg {
+    background: #edeef3;
+  }
+.map-view .location-advantage h3 {
+    color: #000;
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-family: "poppinssemibold";
+  }
+  
+  .advantage-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .advantage-list li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 22px;
+  }
+  
+  .advantage-list li a {
+    color: #575757;
+    text-decoration: none;
+    transition: 0.3s;
+    display: block;
+  }
+  
+  .advantage-list li i {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    color: #0f5ca8;
+    left: 0;
+    top: 4px;
+  }
+  
+  /* Map CSS End */

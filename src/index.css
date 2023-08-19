@@ -1,0 +1,497 @@
+:root {
+  --primary: #1f3e72;
+  --secondary: rgba(255, 255, 255, 0.78);
+  --black: #131110;
+  --blue-gradient: linear-gradient(97.05deg, #4066ff 3.76%, #2949c6 100%);
+  --orange-gradient: linear-gradient(270deg, #ffb978 0%, #ff922d 100%);
+  --blue: #4066ff;
+  --lightBlue: #eeeeff;
+  --shadow: 0px 23px 21px -8px rgba(136, 160, 255, 0.25);
+}
+
+/* ------------------------------------------------------------------------------------ */
+
+.innerWidth {
+  width: 100%;
+}
+.paddings {
+  padding: 1.5rem;
+}
+
+.flexColStart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* --------------------------Root settings------------------------------------ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  text-decoration: none !important;
+}
+
+/* --------------------------Button------------------------------------ */
+
+.h-button {
+  top: 22%;
+  right: 1%;
+  position: absolute;
+  font-weight: 600;
+  padding: 0.55rem 1.6rem;
+  color: white;
+  background: var(--blue-gradient);
+  border: none;
+  border-radius: 4px;
+  transition: all 300ms ease-in;
+}
+
+.button {
+  font-weight: 500;
+  padding: 0.6rem 1.4rem;
+  color: white;
+  background: var(--blue-gradient);
+  border: none;
+  border-radius: 4px;
+  transition: all 300ms ease-in;
+}
+.button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.h-button:hover {
+  cursor: pointer;
+  color: white;
+  transform: scale(1.1);
+}
+
+/*--- Media Querrries ---*/
+
+@media (min-width: 1280px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1280px;
+  }
+}
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+/*for Mobile*/
+@media only screen and (max-width: 767px) {
+  .enquiry-form {
+    display: block;
+  }
+
+  .desktop-view-only {
+    display: none;
+  }
+
+  .mob-center {
+    text-align: center !important;
+  }
+
+  .contacts-link {
+    margin-bottom: 5px;
+  }
+
+  .disclaimer {
+    padding-bottom: 70px !important;
+  }
+
+  .form-control {
+    margin-bottom: 6px;
+  }
+
+  .about-img {
+    margin-top: 30px;
+  }
+
+  .mob-view-only {
+    display: block;
+  }
+
+  .services .col-md-2 {
+    margin-bottom: 70px;
+  }
+
+  .row-reverse {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+
+  .mob-text {
+    margin-top: 15px;
+  }
+
+  .housing-content .hosuing-text {
+    margin-left: 0;
+  }
+
+  .services.pt-3.pb-5 {
+    padding: 0 !important;
+  }
+
+  .banner-caption {
+    position: absolute;
+    top: 12%;
+    left: 0;
+    right: 0;
+    z-index: 3;
+  }
+
+  tbody,
+  td,
+  tfoot,
+  th,
+  thead,
+  tr {
+    font-size: 13px;
+  }
+
+  .price .price-tag {
+    font-size: 12px;
+  }
+
+  .common-heading h2 {
+    font-size: 28px;
+  }
+
+  .about h2 {
+    font-size: 32px;
+  }
+
+  .amenities .amenities-item {
+    margin: 6px 0;
+  }
+
+  .banner-content {
+    padding: 10px 13px;
+    margin-bottom: 20px;
+  }
+
+  .banner-caption .banner-content h1 {
+    font-size: 1.2rem;
+  }
+
+  .banner-caption .banner-content h4 {
+    font-size: 1rem;
+  }
+
+  .banner-caption .banner-content h3 {
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+
+  .banner-caption .banner-content .bg {
+    padding: 5px 5px;
+  }
+
+  .banner-caption .banner-content p {
+    font-size: 0.7rem;
+    margin-bottom: 0;
+  }
+
+  .banner-caption {
+    top: 10%;
+  }
+
+  .footer-link ul {
+    padding-left: 0;
+  }
+  .footer-Menu {
+    display: block;
+  }
+
+  .sidenav a {
+    font-size: 16px;
+  }
+
+  .btn-for-more {
+    display: block;
+  }
+
+  .showLess {
+    display: block;
+    z-index: 999;
+    position: absolute;
+    top: 15px;
+    background-color: #ededed;
+  }
+
+  .showMore {
+    display: block;
+    z-index: 999;
+    position: absolute;
+    top: 15px;
+    background-color: #ededed;
+  }
+
+  .show-btn .btn-more,
+  .btn-less {
+    background: #4eb848;
+    border: 0;
+    color: #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    outline: none;
+    transition: 0.3s;
+    border: 1px solid #4eb848;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+    font-family: "poppinslight";
+  }
+
+  .banner-content-below {
+    display: block;
+  }
+
+  .banner-content-below .banner-content-blw {
+    width: 100%;
+    background: #414141;
+    border: 5px solid #fff;
+    display: inline-block;
+    padding: 8px 15px;
+    box-shadow: 0 0.125rem 0.25rem rgba(#000, 0.075);
+  }
+
+  .banner-content-below .banner-content-blw h2 {
+    color: #fff;
+    font-size: 2.1rem;
+    font-family: "poppinssemibold";
+    position: relative;
+    margin-bottom: 10px;
+  }
+
+  .banner-content-below .banner-content-blw h4 {
+    color: #ffffff;
+    font-size: 1rem;
+    margin-bottom: 12px;
+    font-family: "poppinsregular";
+  }
+
+  .banner-content-below .banner-content-blw h3 {
+    color: #fff;
+    font-size: 1.3rem;
+    font-family: "poppinssemibold";
+  }
+
+  .banner-content-below .banner-content-blw p {
+    color: #fff;
+    margin: 0;
+    padding: 8px;
+    font-size: 1rem;
+    font-family: "poppinsregular";
+  }
+
+  .mb-50 {
+    margin-bottom: 50px;
+  }
+  button.scroltop {
+    display: none;
+  }
+  #slide {
+    display: none;
+  }
+  .bg {
+    max-width: none;
+  }
+  .enquiry-form {
+    display: block;
+  }
+  .banner-caption {
+    display: none;
+  }
+
+  .request .selldof {
+    display: inline-block;
+    margin-left: 0;
+  }
+
+  .request .selldof .form-group {
+    margin-bottom: 20px;
+  }
+
+  .request .selldof_row .form-group .btn {
+    width: 100%;
+  }
+  .image-gallery .carousel-inner,
+  .floor .carousel-inner,
+  .master-plan .carousel-inner {
+    margin-top: 0;
+  }
+
+  /* contacts-link css start */
+
+  .contacts-link {
+    margin: 0;
+    padding: 7px 10px;
+    list-style: none;
+    text-align: right;
+    display: inline-block;
+    border: 1px solid #105caa;
+    background-color: #105caa;
+    border-radius: 4px;
+  }
+
+  .contacts-link li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    border-right: 1px solid #fff;
+    padding-right: 15px;
+  }
+
+  .contacts-link li i {
+    font-size: 20px;
+  }
+
+  .contacts-link li:last-child {
+    border-right: 0px solid #fff;
+    padding-right: 0px;
+  }
+
+  .contacts-link li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.3s;
+    font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+    letter-spacing: 1px;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .offset-sm-2 {
+    margin-left: 10.66666667%;
+  }
+
+  .col-sm-4 {
+    flex: 0 0 auto;
+    width: 39.33333333%;
+  }
+
+  .banner-content {
+    padding: 10px 13px;
+  }
+
+  .banner-caption .banner-content h1 {
+    font-size: 1.2rem;
+  }
+
+  .banner-caption .banner-content h4 {
+    font-size: 1rem;
+  }
+
+  .banner-caption .banner-content h3 {
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+
+  .banner-caption .banner-content .bg {
+    padding: 5px 5px;
+  }
+
+  .banner-caption .banner-content p {
+    font-size: 0.7rem;
+    margin-bottom: 0;
+  }
+
+  .banner-caption {
+    top: 10%;
+  }
+
+  .know-more {
+    padding: 10px 10px;
+  }
+
+  .know-more h3 {
+    font-size: 18px;
+  }
+
+  .submit-btn {
+    padding: 7px 7px;
+    font-size: 13px;
+    margin-top: 0;
+  }
+
+  hr {
+    background: #fff;
+    margin: 5px 0;
+  }
+
+  .about h2 {
+    font-size: 35px;
+  }
+
+  .about p {
+    font-size: 15px;
+  }
+
+  .footer-link ul {
+    padding-left: 0;
+  }
+
+  .disclaimer .social-icons {
+    margin-bottom: 100px;
+  }
+  .amenities .amenities-text p {
+    font-size: 11px;
+    font-weight: 600;
+  }
+
+  .amenities1 {
+    max-height: 100%;
+    overflow-y: inherit;
+  }
+
+  .rupee-sign {
+    font-size: 15px;
+  }
+
+  .gallery:after {
+    left: 7px;
+    bottom: 7px;
+  }
+
+  .about-img:after {
+    left: 7px;
+    bottom: 7px;
+  }
+
+  .request .selldof_row .form-group .btn {
+    width: 65%;
+  }
+
+  .request .selldof .form-group {
+    margin-bottom: 10px;
+  }
+
+  .request .selldof {
+    margin-left: 14%;
+  }
+}

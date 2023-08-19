@@ -1,0 +1,45 @@
+/* floor-plan CSS start */
+
+.floor-map {
+  position: relative;
+}
+
+.icon {
+  width: 150px;
+}
+
+.map-img img {
+  border: 2px solid #4db847;
+}
+
+.map-text {
+  position: absolute;
+  bottom: 0;
+  background: rgb(78 184 72 / 70%);
+  left: 0;
+  right: 0;
+}
+
+.map-text p {
+  color: #fff !important;
+  font-size: 17px;
+  font-family: "poppinsregular";
+  top: 10;
+  left: 0;
+  right: 0;
+  margin-bottom: 0;
+  padding: 10px 0;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.fancybox-toolbar .fancybox-button--zoom {
+  display: none;
+}
+.blur-img {
+  filter: blur(3px);
+}
+
+/* floor-plan CSS end */

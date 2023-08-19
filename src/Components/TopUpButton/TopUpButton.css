@@ -1,0 +1,64 @@
+.bttn{
+    z-index: 60;
+    position: fixed;
+    top: 80%;
+    right: 5%;
+    border-radius: 100% !important;
+}
+button.scroltop:focus {
+    outline: 0 !important;
+}
+
+button.scroltop {
+    border-color: #4db847;
+    border-radius: 50%;
+    background: #4db847;
+    border-style: solid;
+    border-width: 0;
+    bottom: 93px;
+    color: #fff !important;
+    cursor: pointer;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    margin: 0;
+    position: fixed;
+    right: 15px;
+    text-align: center;
+    width: 50px;
+    z-index: 999;
+    transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    -o-transition: all 0.8s;
+}
+
+button.scroltop:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    content: "";
+    top: 0;
+    left: 0;
+    padding: 0;
+    z-index: -1;
+    background: inherit;
+    -webkit-transition: -webkit-transform 0.2s, opacity 0.3s;
+    -moz-transition: -moz-transform 0.2s, opacity 0.3s;
+    transition: transform 0.2s, opacity 0.3s;
+}
+
+button.scroltop:after {
+    border: 1px dashed #4db847;
+    background: 0 0;
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+button.scroltop:after {
+    -webkit-animation: spinAround 9s linear infinite;
+    -moz-animation: spinAround 9s linear infinite;
+    animation: spinAround 9s linear infinite;
+}

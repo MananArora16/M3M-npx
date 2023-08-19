@@ -1,0 +1,63 @@
+.amenities {
+    /* The image used */
+    background: rgb(133 12 112 / 75%);
+    background-image: url("/public/images/Amenities_Bg.jpg");
+    background-color: #000;
+
+    /* Set a specific height */
+    min-height: 350px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.amenities .amenities-item {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0;
+}
+
+.amenities .amenities-item i {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.amenities .amenities-text {
+    padding-left: 20px;
+    line-height: 50px;
+}
+
+.amenities-item {
+    background: rgb(255 255 255 / 60%);
+    border: 2px solid #0f5ca8;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.amenities .amenities-text p {
+    position: relative;
+    display: inline-block;
+    color: #212529;
+    font-size: 17px;
+    font-family: "poppinsregular";
+    margin: 0;
+}
+
+.iconn{
+    width: 190px;
+}
+
+.amenities .amenities-icon {
+    height: 50px;
+    width: 50px;
+}
+
+.amen-text{
+    font-size: 3rem;
+        color: rgb(103, 158, 21);
+        font-weight: bolder;
+}
+

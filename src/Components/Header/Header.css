@@ -1,0 +1,122 @@
+.header {
+  background: whitesmoke;
+}
+.h-img {
+  margin-left: 0.5rem;
+}
+.h-menu {
+  display: flex;
+  padding: 1rem;
+  margin-right: 11rem;
+  gap: 1rem;
+  justify-content: end;
+}
+
+.h-menu .active{
+
+  border-bottom: 3px solid #4759aa;
+}
+
+
+.h-menu>a:hover{
+  cursor: pointer;
+  border-bottom: 2px solid #4759aa;
+}
+
+
+
+.h-icon {
+  font-size: 1.1rem;
+  margin-right: 0.4rem;
+  margin-bottom: 0.16rem;
+}
+.anchor:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.contact_icon{
+  margin-right: 6px;
+}
+
+
+.toggle{
+  background: transparent;
+  border-color: transparent;
+  color: rgb(16, 141, 16);
+  cursor: pointer;
+  display: none;
+}
+
+.toggle span{
+    position: absolute;
+      top: 18%;
+      right: 2%;
+      font-size: 22px;
+     font-size: 2.6rem;
+}
+
+.dropDown_menu{
+  display: none;
+}
+
+
+
+/* ------------------------- Media Queries -------------------------------------------- */
+
+
+@media(max-width: 1165px){
+  .h-menu>a{
+    display: none ;
+  }
+.h-menu>button{
+  top: 25%;
+  right: 6%;
+  margin-right: 2rem;
+  padding: 0.3rem 1.2rem;
+}
+.toggle{
+  display: block;
+}
+.dropDown_menu {
+  display: block;
+  text-decoration: none;
+  list-style-type: none;
+  width: 310px;
+  position: fixed;
+  height: 100%;
+  top: 60px;
+  right: 0;
+  z-index: 100;
+  background: #fff;
+  overflow-x: hidden;
+  text-align: center;
+  justify-content: center;
+  transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.dropDown_menu li {
+  font-size: 1rem;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+ 
+}
+
+.dropDown_menu li:hover {
+  background: hsl(205, 86%, 81%);
+  padding: 1rem;
+}
+
+.dropDown_menu li button {
+  width: 90%;
+}
+
+.dropDownOpen {
+  right: 0;
+}
+
+.dropDownClosed {
+  right: -320px;
+}
+
+}

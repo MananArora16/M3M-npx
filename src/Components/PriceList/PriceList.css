@@ -1,0 +1,43 @@
+/* Price Table CSS start */
+
+.table {
+    border-color: #000;
+  }
+  
+  .price .price-tag {
+    color: #4eb847;
+    font-size: 15px;
+    font-family: "poppinsbold";
+  }
+  
+  .price i {
+    color: #4eb847;
+  }
+  
+  .common-bg {
+    background: #edeef3;
+  }
+  /* Price Table CSS end */
+  
+  .price-common-btn {
+    background: #4eb847;
+    color: #ffffff;
+    padding: 7px 20px;
+    border-radius: 3px;
+    text-decoration: none;
+    outline: none;
+    transition: 0.3s;
+    display: inline-block;
+    border: 1px solid #4eb847;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .price-common-btn:hover {
+    scale: 1.1;
+    background: #4eb847;
+    color: #ffffff;
+    text-decoration: none;
+    outline: none;
+    border: 1px solid #4eb847;
+  }

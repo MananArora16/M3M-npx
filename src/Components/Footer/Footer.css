@@ -1,0 +1,108 @@
+/* disclaimer footer start */
+
+.disclaimer {
+  background: #000;
+}
+
+.disclaimer h2 {
+  color: #fff;
+  font-size: 24px;
+  font-family: "poppinsregular";
+}
+
+.disclaimer p {
+  color: #999999 !important;
+  font-size: 15px;
+  font-family: "poppinslight";
+  margin: 0;
+}
+
+.disclaimer hr {
+  margin: 1rem 0;
+  color: #fff;
+  background-color: currentColor;
+  /* border: 0; */
+  opacity: 100;
+}
+
+.disclaimer .footer-link ul li a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*.disclaimer .social-icons {
+      margin-bottom: 45px;
+  }*/
+
+.disclaimer .rera p {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.footer-link ul {
+  list-style: none;
+  margin: auto;
+  text-align: center;
+}
+
+.footer-link ul li {
+  display: inline-block;
+  padding: 0 20px;
+  font-family: "poppinsregular";
+  color: #fff;
+  font-size: 15px;
+  line-height: 15px;
+  border-right: 1px solid #fff;
+}
+
+.footer-link ul li:last-child {
+  border-right: none;
+}
+
+/* disclaimer footer end */
+
+.social-icons {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+}
+.social-icons li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+}
+.social-icons li a {
+  height: 27px;
+  width: 27px;
+  line-height: 27px;
+  text-align: center;
+  border: 1px solid #fff;
+  color: #fff;
+  display: inline-block;
+  transition: 0.3s;
+  margin: 0 3px;
+  font-size: 13px;
+}
+.social-icons li a:hover {
+  background: #fff;
+  color: #f36f21;
+}
+.social-icons li a i {
+  transition: transform 0.2s; /* Animation */
+}
+p {
+  color: #414142 !important;
+}
+.social-icons li a:hover i {
+  transform: scale(
+    1.3
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.f-text {
+  font-size: 1rem !important;
+}
+
